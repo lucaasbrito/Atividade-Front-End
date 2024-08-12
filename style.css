@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  overflow: hidden;
+}
+.azul {
+  width: 50rem;
+  height: 45rem;
+  margin: 0 auto;
+  position: relative;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  background-color: blue;
+}
+
+.vermelho {
+  width: 30rem;
+  height: 30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+
+.preta {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.verde {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: green;
+}
+
+.amarelo {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+}
+
+/* segunda pagina */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: black;
+}
+
+/* Terceira Pagina */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1,
+.text2 {
+  padding: 20px;
+  margin: 10px 0;
+  width: 100%;
+}
+.text1 {
+  width: 80%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+.text2 {
+  max-width: 80%;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  overflow: scroll;
+}
+
+/* Quarta Pagina */
+
+body {
+  background-color: gainsboro;
+}
+
+.box1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.box2 {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.box3 {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.box4 {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.box5 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.box6 {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square2 {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square3 {
+  position: absolute;
+  bottom: 0;
+  right: 120px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square4 {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square5 {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square6 {
+  position: absolute;
+  bottom: 120px;
+  right: 0;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
